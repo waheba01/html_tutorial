@@ -48,6 +48,8 @@ using pre tag... read it carefully.
         <li>CAPSICUM</li>
     </ol>
     <hr size="5px" color="green">
+    <h1>Table</h1>
+    <HR><br>
     <table border="1">
         <tr>
             <th>sr no.</th>
@@ -86,10 +88,11 @@ using pre tag... read it carefully.
             <td>it</td>
         </tr>
     </table>
-    <hr>
+    <hr size="5px" color="green">
     <div style="color:blue">
         <h1> This is heading in div element<h1>
                 <h2>Watch html tutorial on youtube.</h2>
+                <hr>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=4-A6hUMOM-mWUh32"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -107,7 +110,53 @@ using pre tag... read it carefully.
     <br>
     <a href="https://github.com/" target="_blank">GO TO GITHUB </a>
     <br>
-
+    <hr size="5px" color="blue">
+    <h2>Form</h2>
+    <hr>
+    <form action="submit.html">
+        Username: <input type="text" placeholder="enter your username" >
+        <br>
+        <br>
+        Password: <input type="password" placeholder="enter password" >
+        <br><br>
+        Email: <input type="email" placeholder="enter email" >
+        <br><br>
+        Birth date: <input type="date" name="mydate" >
+        <br><br>
+        Semester: <input type="number"  placeholder="select" >
+        <BR><BR>    
+            Phone: <input type="number" >
+            <br><br>
+        <big>Documents: </big><br>
+        Aadhar: <input type="checkbox" name="subject" checked>
+        Income certificate: <input type="checkbox" name="subject" >
+        Domicile: <input type="checkbox" name="subject" >
+        Marksheet: <input type="checkbox" name="subject" checked>
+        Leaving certificate: <input type="checkbox" name="subject" >
+        <br>
+        <input type="file"> 
+<br><br>
+<big>Gender:</big><br>
+ Male:<input type="radio" name="mygender"> Female:<input type="radio" name="mygender"> Other: <input type="radio" name="mygender">
+<br><br>
+Write about your self:<br>
+<textarea name="my text" cols="70" rows="8"></textarea>
+<br><br>
+State:
+<select name="state">
+    <option value="Maharashtra" selected>Maharashtra </option>
+    <option value="Rajasthan" >Rajasthan</option>
+    <option value="aGujrat" >Gujrat<a/option>
+    <option value="Punjab" >Punjab</option>
+</select>
+<br><br>
+Appointment Date:<input type="time" name="time" value="10:00">
+<br><br>
+<input type="submit" value="Submit now">
+<br><br>
+<input type="reset" value="Reset now">
+    </form>
+    
 </body>
 
 </html>
