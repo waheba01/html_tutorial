@@ -7,15 +7,15 @@
 </head>
 
 <body>
-    <h1 align="center">This is a center align heading level 1 </h1>
+    <h1 style="text-align: center;">This is a center align heading level 1 </h1>
     <hr>
-    <h2 align=" right">This is a right align heading level 2 </h2>
+    <h2 style="text-align: right;">This is a right align heading level 2 </h2>
     <h3>This is a heading level 3</h3>
     <h4>This is a heading level 4</h4>
     <h5>This is a heading level 5</h5>
     <h6>This is a heading level 6</h6>
-    <hr size="5px" color="red">
-    <p>This is a paragaraph with a line break</p>
+    <hr style="height: 5px; color: red;">
+    <p>This is a paragraph with a line break</p>
     <br>
     <p>This is <strong>Bold</strong> text and This is <em>Italic</em> text.</p>
     <p> This is<sup>Super script</sup> text and this is <sub> Subscript </sub>text.</p>
@@ -29,27 +29,27 @@ using pre tag... read it carefully.
     <p>This is a <u>UNDERLINED</u>Text.</p>
     <p>This is a <big>BIG</big> Text and this is a <small>SMALL</small>Text.</p>
     <h3> This is a <span> Span </span> text. </h3>
-    <hr size="5px" color="red">
+    <hr style="height: 5px; color: red;">
 
     <h1>list</h1>
-    <HR>
+    <hr>
     <h3>Fruits [unorderd list]</h3>
-    <ul type="circle">
+    <ul style="list-style-type: circle;">
         <li>APPLE</li>
         <li>MANGO</li>
         <li>CHIKOO</li>
         <li>KIWI</li>
     </ul>
     <h3>Vegetables [orderd list]</h3>
-    <ol type="i">
+    <ol style="list-style-type: lower-roman;">
         <li>CABBAGE</li>
         <li>BRINJAL</li>
         <li>CARROT</li>
         <li>CAPSICUM</li>
     </ol>
-    <hr size="5px" color="green">
+    <hr style="height: 5px; color: green;">
     <h1>Table</h1>
-    <HR><br>
+    <hr><br>
     <table border="1">
         <tr>
             <th>sr no.</th>
@@ -88,21 +88,19 @@ using pre tag... read it carefully.
             <td>it</td>
         </tr>
     </table>
-    <hr size="5px" color="green">
-        <h1> This is heading in div element<h1>
-                <h2>Watch html tutorial on youtube.</h2>
-            </div>
-                <hr>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=4-A6hUMOM-mWUh32"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <BR>
+    <hr style="height: 5px; color: green;">
+        <h1> This is heading in div element</h1>
+        <h2>Watch html tutorial on youtube.</h2>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=4-A6hUMOM-mWUh32"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
     <hr>
     <img src="google.png" height="50" alt=" relative url">
     <br>
-    <a href="https://google.com"><BUTTON>GO TO GOOGLE</BUTTON></a>
+    <a href="https://google.com"><button>GO TO GOOGLE</button></a>
 
 
     <hr>
@@ -110,7 +108,7 @@ using pre tag... read it carefully.
     <br>
     <a href="https://github.com/" target="_blank">GO TO GITHUB </a>
     <br>
-    <hr size="5px" color="blue">
+    <hr style="height: 5px; color: blue;">
     <h2>Form</h2>
     <hr>
     <form action="submit.html">
@@ -124,9 +122,9 @@ using pre tag... read it carefully.
         Birth date: <input type="date" name="mydate" >
         <br><br>
         Semester: <input type="number"  placeholder="select" >
-        <BR><BR>    
-            Phone: <input type="number" >
-            <br><br>
+        <br><br>    
+        Phone: <input type="number" >
+        <br><br>
         <big>Documents: </big><br>
         Aadhar: <input type="checkbox" name="subject" checked>
         Income certificate: <input type="checkbox" name="subject" >
@@ -135,28 +133,16 @@ using pre tag... read it carefully.
         Leaving certificate: <input type="checkbox" name="subject" >
         <br>
         <input type="file"> 
-<br><br>
-<big>Gender:</big><br>
- Male:<input type="radio" name="mygender"> Female:<input type="radio" name="mygender"> Other: <input type="radio" name="mygender">
-<br><br>
-Write about your self:<br>
-<textarea name="my text" cols="70" rows="8"></textarea>
-<br><br>
-State:
-<select name="state">
-    <option value="Maharashtra" selected>Maharashtra </option>
-    <option value="Rajasthan" >Rajasthan</option>
-    <option value="aGujrat" >Gujrat<a/option>
-    <option value="Punjab" >Punjab</option>
-</select>
-<br><br>
-Appointment Date:<input type="time" name="time" value="10:00">
-<br><br>
-<input type="submit" value="Submit now">
-<br><br>
-<input type="reset" value="Reset now">
-    </form>
-    
-</body>
-
-</html>
+        <br><br>
+        <big>Gender:</big><br>
+        Male:<input type="radio" name="mygender"> Female:<input type="radio" name="mygender"> Other: <input type="radio" name="mygender">
+        <br><br>
+        Write about yourself:<br>
+        <textarea name="my text" cols="70" rows="8"></textarea>
+        <br><br>
+        State:
+        <select name="state">
+            <option value="Maharashtra" selected>Maharashtra </option>
+            <option value="Rajasthan" >Rajasthan</option>
+            <option value="Gujrat" >Gujrat</option>
+            <option value="Punjab" >
